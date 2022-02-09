@@ -1,0 +1,11 @@
+{
+  "data": [{
+    "title": "BlackJack",
+    "type": "games",
+    "main": "Main.exe",
+    "download": {
+      "fileName": "BlackJack.zip",
+      "url": "https://github.com/Asadaaaaa/AIO/blob/main/data/BlackJack.zip?raw=true"
+    }
+  }]
+}
