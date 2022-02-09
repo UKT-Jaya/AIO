@@ -7,5 +7,13 @@
       "fileName": "BlackJack.zip",
       "url": "https://github.com/UKT-Jaya/AIO/blob/main/data/BlackJack.zip?raw=true"
     }
+  }, {
+    "title": "HangMan",
+    "type": "games",
+    "main": "HangMan.exe",
+    "download": {
+      "fileName": "HangMan.zip",
+      "url": ""
+    }
   }]
 }
