@@ -13,7 +13,7 @@
     "main": "HangMan.exe",
     "download": {
       "fileName": "HangMan.zip",
-      "url": ""
+      "url": "https://github.com/UKT-Jaya/AIO/blob/main/data/HangMan.zip?raw=true"
     }
   }]
 }
