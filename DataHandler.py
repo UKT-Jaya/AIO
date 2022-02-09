@@ -44,7 +44,7 @@ def updater():
     else:
         doing = "install"
 
-    link = "https://raw.githubusercontent.com/Asadaaaaa/AIO/main/data/Data.json"
+    link = "https://github.com/UKT-Jaya/AIO/raw/main/data/Data.json"
     fileName = "Data.json"
     pathFile = "./data/" + fileName
     with open(pathFile, "wb") as f:
