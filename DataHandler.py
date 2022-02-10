@@ -49,9 +49,9 @@ def updater():
     pathFile = "./data/" + fileName
     with open(pathFile, "wb") as f:
         if(doing == "install"):
-            print("> Installing " + fileName)
+            print("> Installing AIO Data")
         elif(doing == "update"):
-            print("> Updating " + fileName)
+            print("> Updating AIO Data")
         response = requests.get(link, stream=True)
         total_length = response.headers.get('content-length')
 
@@ -75,7 +75,7 @@ def updater():
 
 def downloader(title, url, fileName):
     UI.menu("", [])
-    print("> " + fileName + " not installed")
+    print("> " + title + " not installed")
     time.sleep(1)
     print("> Prepare for downloading file")
     time.sleep(1)
@@ -84,7 +84,7 @@ def downloader(title, url, fileName):
     path = "./data/temp/" + fileName
     with open(path, "wb") as f:
         UI.menu("", [])
-        print("> Downloading " + fileName)
+        print("> Downloading " + title + " programs")
         response = requests.get(url, stream=True)
         total_length = response.headers.get('content-length')
 
@@ -101,7 +101,7 @@ def downloader(title, url, fileName):
                 sys.stdout.flush()
     print("\n> Download Success!")
     time.sleep(1)
-    print("> Installing...")
+    print("> Installing " + title + "...")
     with zipfile.ZipFile(path, 'r') as zip_ref:
         zip_ref.extractall("./data/" + title)
     os.remove(path)

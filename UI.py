@@ -26,13 +26,13 @@ def notificator(text, color, borderLen, parentLen):
 	sym5 = "└"
 	sym6 = "┘"
 	textLen = len(text)
-	splitTextLen = textLen / 2
-	splitBorderLen = borderLen / 2
+	splitTextLen = int(textLen / 2)
+	splitBorderLen = int(borderLen / 2)
 	colorReset = "\33[0m"
 	confirm = "Press any key to continue..."
 	confirmLen = len(confirm)
-	splitConfirmLen = confirmLen / 2
-	intPosition = (parentLen - (borderLen + 2)) / 2
+	splitConfirmLen = int(confirmLen / 2)
+	intPosition = int((parentLen - (borderLen + 2)) / 2)
 	strPosition = ""
 
 	if(textLen <= 0):
