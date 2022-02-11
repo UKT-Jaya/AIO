@@ -2,7 +2,7 @@
   "data": [{
     "title": "BlackJack",
     "type": "games",
-    "main": "Main.exe",
+    "main": "BlackJack.exe",
     "download": {
       "fileName": "BlackJack.zip",
       "url": "https://github.com/UKT-Jaya/AIO/blob/main/data/BlackJack.zip?raw=true"
